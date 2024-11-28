@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5E5D3;
+    color: #444;
+    margin: 0;
+    display: flex;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    border-bottom: 2px solid #ddd;
+    width: 200px;
+    background-color: #D3A689;
+    padding: 20px;
+    border-right: 1px solid #ddd; 
+    min-height: 100vh; 
+}
+
+header h1 {
+    color: #f7f4f0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f7f4f0;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal */
+main {
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #D3A689;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.newuser-container{
+    background-color: #f1e5dd;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #D3A689;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #d18553;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .usuarios-container {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    background-color: #D3A689;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d18553;
+}

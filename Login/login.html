@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="carrossel">
+        <div class="carrossel-imagens">
+            <img src="/Login/carrossel/1.webp" alt="">
+            <img src="/Login/carrossel/2.webp" alt="">
+            <img src="/Login/carrossel/3.webp" alt="">
+        </div>
+    </div>
+    <div>
+        <main class="login-container">
+            <h1>Hotel Pet</h1>
+            <form action="/Pets/pets.html">
+                <input type="text" id="email" name="email" placeholder="Login">
+
+                <input type="password" id="senha" name="senha" placeholder="Senha" required>
+                <p class="esqsenha"><a href="">Esqueci a senha</a></p>
+                <div class="checando">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="lembrar" name="lembrar">
+                    </div>
+                    <label for="lembrar">Mantenha-me conectado</label>
+                </div>
+               
+
+                <button type="submit">Entrar</button>
+                <br><br>
+
+                <span class="detalhe">
+                    <p> OU </p>
+                </span>
+
+                <div class="alternativo">
+                    <img src="/Login/facebook.png" alt="icone meta">
+                    <img src="/Login/google.png" alt="icone google">
+                </div> <br><br><br><br>
+                <p><a href="/CriarConta/criar_conta.html">Criar uma conta</a></p>
+            </form>
+        </main>
+    </div>
+    <script src="script_carrossel.js"></script>
+    <script src="login.js"></script>
+
+
+</body>
+
+</html>

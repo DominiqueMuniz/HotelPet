@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_visualizar_pet.css">
+    <title>Visualizar Pet</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Pet</h1>
+        <nav>
+            <ul id="nav-list"></ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Detalhes do Pet</h2>
+        <div class="pet-detalhes">
+            <p><strong>Nome:</strong> <span id="petNome"></span></p>
+            <p><strong>Tipo:</strong> <span id="petTipo"></span></p>
+            <p><strong>Raça:</strong> <span id="petRaca"></span></p>
+            <p><strong>Tamanho:</strong> <span id="petTamanho"></span></p>
+            <img id="petImagem" src="" alt="Imagem do Pet" class="pet-imagem">
+        </div>
+        <button onclick="window.history.back()">Voltar</button>
+    </main>
+
+    <script src="visualizar_pet.js"></script>
+    <script src="/Navigate/navigate.js"></script>
+</body>
+</html>

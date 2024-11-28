@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_ver_reserva.css">
+    <title>Ver Reserva</title>
+</head>
+
+<body>
+    <div class="header">
+        <aside class="sidebar">
+            <h1>Hotel Pet</h1>
+            <nav>
+                <ul id="nav-list">
+                </ul>
+            </nav>
+        </aside>
+    </div>
+    <main>
+        <h2>Detalhes da Reserva</h2>
+        <div class="reserva-detalhes">
+            <p><strong>Proprietário:</strong> <span id="proprietario"></span></p>
+            <p><strong>Pet:</strong> <span id="pet"></span></p>
+            <p><strong>Período:</strong> <span id="periodo"></span></p>
+            <p><strong>Status:</strong> <span id="status"></span></p>
+            <p><strong>Total das Diárias:</strong> R$ <span id="total"></span></p>
+            <p><strong>Notas:</strong> <span id="notas"></span></p>
+        </div>
+        <button onclick="window.history.back()">Voltar</button>
+    </main>
+
+    <script src="ver_reserva.js"></script>
+    <script src="/Navigate/navigate_aside.js"></script>
+</body>
+
+</html>

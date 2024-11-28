@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5E5D3;
+    color: #444;
+    margin: 0;
+    display: flex;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    border-bottom: 2px solid #ddd;
+    width: 200px;
+    background-color: #D3A689;
+    padding: 20px;
+    border-right: 1px solid #ddd; 
+    min-height: 100vh; 
+}
+
+header h1 {
+    color: #f7f4f0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    gap: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f7f4f0;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #D3A689;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Container de usuários */
+.usuarios-container {
+    background-color: #f1e5dd;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Tabela de Usuários */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: #D3A689;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table td{
+    background-color: #ffffff;
+}
+
+table th {
+    font-weight: bold;
+    color: #000000;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Foto do usuário */
+.foto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Links de ações */
+table a {
+    color: #7d7b7b;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Botão de Novo Usuário */
+button {
+    padding: 10px 20px;
+    background-color: #D3A689;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #d18553;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .usuarios-container {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5E5D3;
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    width: 95%;
+    margin: 0;
+}
+
+body img {
+    background-color: #D3A689;
+    display: flex;
+    justify-content: left;
+    margin-left: 110px;
+    margin-top: 2.8%;
+    margin-right: 10px;
+    height: 700px;
+    width: 80%;
+
+}
+
+.esqsenha {
+    margin-left: 200px;
+}
+
+.login-container {
+    width: 350px;
+    height: 350px;
+    background-color: #f7f4f0;
+    padding: 30px;
+    margin-top: 8.8%;
+    padding-bottom: 70%;
+    margin-right: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #D3A689;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.checando{
+    display: flex;
+    align-items: center;
+}
+.checando label{
+    color: #d18553;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #D3A689;
+    color: #F5E5D3;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+button:hover {
+    background-color: #d18553;
+}
+
+p a {
+    color: #D3A689;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.detalhe {
+    height: 2px;
+    background-color: #000;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin: 30px;
+}
+
+.detalhe p {
+    background: #f7f4f0;
+    display: flex;
+    margin: -10px;
+    padding: 1px 5px;
+}
+
+.alternativo {
+    display: flex;
+    justify-content: left;
+    margin-left: -2px;
+}
+
+.alternativo img {
+    display: flex;
+    justify-content: left;
+    background: #f7f4f0;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    margin-right: -75px;
+}
+
+.alternativo img:hover {
+    filter: brightness(0.9);
+    transform: scale(1.1);
+}
+
+.carrossel {
+    width: 80%; 
+    overflow: hidden; 
+    margin: 17px auto;
+    position: relative;
+   
+}
+
+.carrossel-imagens {
+    display: flex; 
+    width: 100%; 
+    transition: transform 0.9s ease;
+    height: 723px;
+    width: 90%;
+    margin-left: -30px;
+}
+
+.carrossel-imagens img {
+    width: 100%; 
+    flex-shrink: 0; 
+    object-fit: cover; 
+}

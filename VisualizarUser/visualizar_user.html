@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_visualizar_user.css">
+    <title>Visualizar Usuário</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Pet</h1>
+        <nav>
+            <ul id="nav-list"></ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Detalhes do Usuário</h2>
+        <div class="user-detalhes">
+            <p><strong>Email:</strong> <span id="userEmail"></span></p>
+            <p><strong>Nome:</strong> <span id="userNome"></span></p>
+            <p><strong>Sobrenome:</strong> <span id="userSobrenome"></span></p>
+            <p><strong>Telefone:</strong> <span id="userTelefone"></span></p>
+            <p><strong>Função:</strong> <span id="userFuncao"></span></p>
+            <p><strong>Status:</strong> <span id="userStatus"></span></p>
+            <p><strong>Criado em:</strong> <span id="userCriadoEm"></span></p>
+            <img id="userImagem" src="" alt="Imagem do Usuário" class="user-imagem">
+        </div>
+        <button onclick="window.history.back()">Voltar</button>
+    </main>
+
+    <script src="visualizar_user.js"></script>
+    <script src="/Navigate/navigate.js"></script>
+</body>
+</html>
